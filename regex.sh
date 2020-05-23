@@ -1,6 +1,4 @@
 #!/bin/bash
-# Michael Manian
-# CS 288 HW 2 Problem 1
 
 for x in A B C D E F G H I J K L M N O P Q R S T U V W X Y Z; do
   for y in A B C D E F G H I J K L M N O P Q R S T U V W X Y Z; do
