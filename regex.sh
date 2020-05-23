@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for x in A B C D E F G H I J K L M N O P Q R S T U V W X Y Z; do
+for x in A B C D E F G H I J K L M N O P Q R S T U V W X Y Z; do # Loop through alphabets
   for y in A B C D E F G H I J K L M N O P Q R S T U V W X Y Z; do
     letters=${x}${y}
     wget https://en.wikipedia.org/wiki/${letters} -O ${letters}.html # Gets and downloaded wiki html page
