@@ -1,6 +1,3 @@
-# Michael Manian
-# CS 288 HW 2 Problem 2
-
 from bs4 import BeautifulSoup
 from collections import OrderedDict
 import urllib.request
