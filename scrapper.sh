@@ -11,5 +11,4 @@ done
 
 sort -o sorted.txt allwords.txt # Sorts words into new file
 uniq -ic sorted.txt final.txt # Counts number of occurences of the words into new file, case insensitive
-sort -nr final.txt | head -n 15
-# Sort by number of occurrences in reverse order based on number (largest to smallest), prints out first 15 words
+sort -nr final.txt | head -n 15 # Sort by number of occurrences in reverse order based on number (largest to smallest), prints out first 15 words
