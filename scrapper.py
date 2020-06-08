@@ -6,7 +6,7 @@ words_dict = {}  # Dictionary to store words and their count
 alphabets = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
              "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]  # List of capital alphabets A-Z
 
-for x in alphabets:
+for x in alphabets: # Loop through alphabets
     for y in alphabets:
         letters = x + y
         website_url = "https://en.wikipedia.org/wiki/" + letters  # Url for Wikipedia entries with two capital letters
