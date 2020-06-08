@@ -13,7 +13,7 @@ for x in alphabets:
         print("Processing page:", website_url)  # Prints that the url is being processed (shows program is looping)
         file = urllib.request.urlopen(website_url)  # Opens page using urllib command
         html = file.read()
-        obj_html = BeautifulSoup(html, "html.parser")  # Converts a text from HTML format to text format
+        obj_html = BeautifulSoup(html, "html.parser")  # Converts a text from HTML format to text format using BeautifulSoup
         t = obj_html.find(id="bodyContent")
         for element in t(["script", "style"]):  # Removes all script and style elements
             element.extract()
